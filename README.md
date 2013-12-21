@@ -29,6 +29,7 @@ For users, here's a recent list of the commands that you can give to botbot. Not
     botbot die - End botbot process
     botbot echo <text> - Reply back with <text>
     botbot fake event <event> - Triggers the <event> event for debugging reasons
+    botbot forget <key> - Removes key from botbots brain.
     botbot github search [repo] <query> - Search for <query> in [repo] or anywhere
     botbot help - Displays all of the help commands that botbot knows about.
     botbot help <query> - Displays all help commands that match <query>.
@@ -44,6 +45,9 @@ For users, here's a recent list of the commands that you can give to botbot. Not
     botbot ping - Reply with pong
     botbot pug bomb N - get N pugs
     botbot pug me - Receive a pug
+    botbot random memory - Returns a random string
+    botbot remember <key> - Returns a string
+    botbot remember <key> is <value>. - Returns nothing. Remembers the text for next time!
     botbot repo commiters <repo> - shows commiters of repository
     botbot repo show <repo> - shows activity of repository
     botbot repo top-commiters <repo> - shows top commiters of repository
@@ -58,6 +62,8 @@ For users, here's a recent list of the commands that you can give to botbot. Not
     botbot time - Reply with current time
     botbot translate me <phrase> - Searches for a translation for the <phrase> and then prints that bad boy out.
     botbot translate me from <source> into <target> <phrase> - Translates <phrase> from <source> into <target>. Both <source> and <target> are optional
+    botbot what are your favorite memories? - Returns a list of the most remembered memories.
+    botbot what do you remember - Returns everything botbot remembers.
     botbot what do you think about (.*)
     botbot what role does <user> have - Find out what roles are assigned to a specific user
     botbot what should I do about (.*)
