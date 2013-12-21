@@ -1,7 +1,7 @@
 
 
 # botbot
-## Thunderdome's online helper in our IM channels
+## Thunderdome's helper in our IM channels
 This is a version of GitHub's Campfire bot, [hubot](https://github.com/github/hubot). He's pretty cool.
 
 This version is designed to be deployed on [Heroku](http://www.heroku.com). This README was generated for you by hubot to help get you started. Definitely update and improve to talk about your own instance, how to use and deploy, what functionality he has, etc!
@@ -78,13 +78,17 @@ For users, here's a recent list of the commands that you can give to botbot. Not
 
 
 ## To set up your own hubot
-If you'd like to run a hubot, you can get instructions here at the [Hubot repo](https://github.com/github/hubot/blob/master/docs/README.md). First you'll need to have Node and NPM installed locally. Here's [a great tutorial on setting that up](http://www.joyent.com/blog/installing-node-and-npm). We're currently using a Hubot's adapter [to connect us to Slack](https://github.com/tinyspeck/hubot-slack), but there are [loads of adapters for other popular chat services](https://github.com/github/hubot/blob/master/docs/adapters.md).
+If you'd like to run a hubot, there is a lot more documentation below. For a high-level overview: 
+
+* you'll need to have Node and NPM installed locally. Here's [a great tutorial on setting that up](http://www.joyent.com/blog/installing-node-and-npm). 
+* Start with the instructions here at the [Hubot repo](https://github.com/github/hubot/blob/master/docs/README.md). 
+* Our botbot is running on Heroku, which is fairly easy to launch and maintain. There is great documentation on [how to create your Heroku Hubot app](https://github.com/github/hubot/blob/master/docs/deploying/heroku.md).
+* Connect the bot on heroku to your messaging service. We're currently using a Hubot's adapter [to connect us to Slack](https://github.com/tinyspeck/hubot-slack), but there are [loads of adapters for other popular chat services](https://github.com/github/hubot/blob/master/docs/adapters.md).
 
 
 ## Environment Variables
-Our botbot is currently running on Heroku, which is fairly easy to launch and maintain. There is great documentation on [how to create your Heroku Hubot app](https://github.com/github/hubot/blob/master/docs/deploying/heroku.md).
-
 For the [hubot scripts](http://hubot-script-catalog.herokuapp.com/) that we're currently running, you will need to configure several environment variables within Heroku. Right now, those include: 
+
     HEROKU_URL
     HUBOT_GITHUB_REPO
     HUBOT_GITHUB_TOKEN
@@ -94,6 +98,7 @@ For the [hubot scripts](http://hubot-script-catalog.herokuapp.com/) that we're c
     HUBOT_SLACK_TOKEN
     
 
+## The standard documentation that came with botbot...
 ### Testing Hubot Locally
 Once you're set up and installed, you can test your hubot by running the following.
 
