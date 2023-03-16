@@ -2,7 +2,7 @@
 
 # botbot
 ## Thunderdome's helper in our IM channels
-This is a version of GitHub's Campfire bot, [hubot](https://github.com/github/hubot). He's pretty cool.
+This is a version of GitHub's Campfire bot, [hubot](https://github.com/github/hubot). He's pretty cool. We used him at Digital First Media's Project Thunderdome newsroom, from roughly mid-2012 through early-2014.
 
 This version is designed to be deployed on [Heroku](http://www.heroku.com). This README was generated for you by hubot to help get you started. Definitely update and improve to talk about your own instance, how to use and deploy, what functionality he has, etc!
 
